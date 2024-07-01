@@ -1,0 +1,242 @@
+.featured-image {
+    width: 100%;
+}
+/* .title-99 a{ 
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    text-align: start;
+    align-items: start;
+
+} */
+
+.title a {
+    font-size: 28px;
+    text-align: start;
+    padding: 7px;
+    color: white;
+}
+.title02{
+    font-size: 20px;
+    /* padding: 7px; */
+}
+.boo1:hover h2{
+    color: #2cd4d9;
+}
+
+
+
+
+.datess {
+    border-radius: 5px;
+    overflow: hidden;
+    color: #1c1e27 !important;
+    background-color: #2cd4d9 !important;
+    padding-top: 5px;
+    padding-bottom: 5px !important;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 6px 9px;
+    display: flex;
+    align-items: center;
+}
+/* yh border ka bager ha or es ma  font siz3e chota ha 
+ */
+ /* or es ma maa  font sizxe kam kar de aha  */
+.title09 a{
+    font-size: 20px;
+    
+    text-align: start;
+    /* padding: 7px; */
+    color: white;   
+}
+.daniii{
+    padding: 7px;
+}
+.dg-post-thumb09{
+    /* border: .07px solid #2cd4d9; */
+    position: relative;
+    transition: box-shadow 0.1s ease;
+}
+.dg-post-thumb09:hover{
+    box-shadow: 0 0 4px 2px #2cd4d9;
+    transition: all 1s, ;
+    transform: translateY(-3px);
+
+}
+.dg-post-thumb09:hover .title09 a {
+    color: #2cd4d9;
+    
+    
+}
+/* yh */
+/*  yh tek rakha ha man or bs yhio h  */
+.dg-post-thumb {
+    border: .07px solid #2cd4d9;
+    position: relative;
+    transition: box-shadow 0.1s ease;
+
+
+}
+
+.dg-post-thumb:hover {
+    box-shadow: 0 0 9px 2px #2cd4d9;
+    transition: all 1s, ;
+    transform: translateY(-3px);
+
+
+
+
+}
+
+.dg-post-thumb:hover .title a {
+    color: #2cd4d9;
+    
+}
+
+.datess i {
+    margin-right: 5px;
+
+}
+.datess-01 i {
+    margin-right: 5px;
+}
+
+/* 2 */
+.featured-image01 {
+    width: 110px;
+    border-radius: 11px;
+}
+
+.title01 {
+    
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: white;
+}
+
+.content-wrapper {
+    padding-right: 10px !important;
+    padding-left: 15px !important;
+}
+
+.datess-01 {
+    color: gray;
+}
+
+.boo {
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(44, 212, 217, 0.25);
+    padding-bottom: 15px !important;
+
+
+}
+/* .boo1{
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(44, 212, 217, 0.25);
+    padding-bottom: 15px !important;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    
+
+}
+.boo1:hover .title{
+    color: #2cd4d9;
+    
+
+}  */
+.boo:hover .title01 {
+    color: #2cd4d9;
+}
+
+.boo:hover{
+    transition: all 1s, ;
+    transform: translateY(-3px);
+}
+@media (max-width: 992px) {
+    .lol {
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .boo {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .boo .title01 {
+        color: #f8ffff;
+    }
+
+    .boo :hover.title01 {
+        color: #f8ffff;
+    }
+
+    .featured-image01 {
+        width: 100%;
+        border-radius: 11px;
+
+    }
+
+}
+/* growing div */
+.Nevermis {
+    padding: 100px;
+    border: 1px solid #2cd4d9;
+    color: #f8ffff;
+    margin-top: 20%;
+    width: 100%;
+    align-items: first baseline;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.Nevermis:hover {
+    border-width: 2px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0 9px 2px #2cd4d9;
+
+    transform: translateY(-7px);
+}
+
+.paragrap {
+    color: #2cd4d9;
+}
+
+/* Other styles if needed */
+/* .Popular{
+    gap: 10px;
+} */
+.SEARCH{
+    color: #2cd4d9;
+    margin-right: 50px;
+}
+.SEARCH-input{
+     border: 1px solid white;
+     background-color: #1c1e27;
+     padding: 5px;
+     
+}
+
+
+
+
+/* slider componet css*/
+
+/* Add this to your App.css or a dedicated CSS file */
+.slider-container {
+    margin-top: 20px;
+  }
+  
+  .slider-container img {
+    width: 1400px;
+    height: 500px;
+    object-fit: cover;
+    /* display: block; */
+  }
+  
